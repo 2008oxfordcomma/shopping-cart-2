@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+  </head>
+
+  <body>
+    <div class="topnav">
+      <span>
+        
+      </span>
+      <span class="right">
+        <a href="managerPg.html" class="tab">Manager Site</a>
+      </span>
+      </div>
+
+<main class="col overflow-auto h-100"> 
+  <form data-store-order="form">
+  <span class="page-title">Shopping Cart</span>
+
+  <div class = "gallery">
+  <div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+      <a >
+        <img id="image1" src="img/AmongUs.jpg" class="w-100 shadow-1-strong rounded mb-4 thumbnail-item" alt="AmongUs">
+        <span class="thumbnail-title">Among Us: Ejected Edition | $89.99</span>
+        <div class="check">
+        <input type="checkbox" class="form-check-input"  id="check1" name="image1" value="AmongUs">
+        <label class="form-check-label">Add to Cart</label>
+      </div>
+      </a>
+      <a>
+        <img id="image2" src="img/Bang.jpg" class="w-100 shadow-1-strong rounded mb-4 thumbnail-item" alt="Bang" >
+        <span class="thumbnail-title">Bang: Black Cherry Vanilla | $2</span>
+        <div class="check">
+          <input class="form-check-input" type="checkbox" id="check1" name="image2" value="Bang Energy">
+          <label class="form-check-label">Add to Cart</label>
+        </div>
+      </a>
+      <a >
+        <img id="image3" src="img/Gobstoppers.jpg" alt="Gobstoppers" class="w-100 shadow-1-strong rounded mb-4 thumbnail-item" >
+        <span class="thumbnail-title">Gobstoppers | $1.33</span>
+        <div class="check">
+          <input class="form-check-input" type="checkbox" id="check1" name="image3" value="Gobstoppers">
+          <label class="form-check-label"> Add to Cart</label>
+        </div>
+      </a>
+  </div>
+  
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <a>
+      <img id="image4" src="img/KitKat.jpeg" alt="KitKat" class="w-100 shadow-1-strong rounded mb-4 thumbnail-item">
+      <span class="thumbnail-title">KitKat | 99¢</span>
+      <div class="check">
+        <input class="form-check-input" type="checkbox" id="check1" name="image5" value="KitKat">
+        <label class="form-check-label">Add to Cart</label>
+      </div>
+    </a>
+    <a>
+      <img id="image5" src="img/KwikTripGC.png" alt="KwikTripGC" class="w-100 shadow-1-strong rounded mb-4 thumbnail-item">
+      <span class="thumbnail-title">Iceland</span>
+      <div class="check">
+        <input class="form-check-input" type="checkbox" id="check1" name="image6" value="Kwik Trip Gift Card">
+        <label class="form-check-label">Add to Cart</label>
+      </div>
+    </a>
+    <a>
+      <img id="image6" src="img/LightningMcQueenClogs.jpg" alt="Lightning McQueen Clogs" class="w-100 shadow-1-strong rounded mb-4 thumbnail-item">
+      <span class="thumbnail-title">Lightning McQueen Clogs | $266</span>
+      <div class="check">
+        <input class="form-check-input" type="checkbox" id="check1" name="image7" value="Lightning McQueen Clogs">
+        <label class="form-check-label">Add to Cart</label>
+      </div>
+    </a>
+  </div>
+  
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <a>
+      <img id="image7" src="img/Skate3.jpg" alt="Skate 3" class="w-100 shadow-1-strong rounded mb-4 thumbnail-item">
+      <span class="thumbnail-title">Skate 3 | $17.90</span>
+      <div class="check">
+        <input class="form-check-input" type="checkbox" id="check1" name="image8" value="Skate 3">
+        <label class="form-check-label">Add to Cart</label>
+      </div>
+    </a>
+    <a>
+      <img id="image8" src="img/Strat.jpg" alt="Strat" class="w-100 shadow-1-strong rounded mb-4 thumbnail-item">
+      <span class="thumbnail-title">Stratocaster (Limited Color: Surf Pearl) | $849.99</span>
+      <div class="check">
+        <input class="form-check-input" type="checkbox" id="check1" name="image9" value="Stratocaster">
+        <label class="form-check-label">Add to Cart</label>
+      </div>
+    </a>
+    <a>
+      <img id="image9" src="img/UltraRareTechDeck.jpeg" alt="Tech Deck" class="w-100 shadow-1-strong rounded mb-4 thumbnail-item">
+      <span class="thumbnail-title">Series 8 Tech Deck Finesse: Lion | $25.37</span>
+      <div class="check">
+        <input class="form-check-input" type="checkbox" id="check1" name="image10" value="Tech Deck">
+        <label class="form-check-label">Add to Cart</label>
+      </div>
+    </a>
+  </div>  
+  </div>
+    
+    
+  </div>
+</div>
+
+<div class="container">
+  <header>
+    <h1>Submit Your Order</h1>
+  </header>
+  <section>
+    <div class="card card-default"> 
+      <div class="card-body">
+            <div class="form-group">
+              <label for="storeOrder">Email</label>
+              <input class="form-control" type="email" name="emailAddress" id="emailInput" value="" placeholder="user@company.com" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+        <!-- the checklist -->
+        <div class="card card-default">
+          <div class="card-body">
+            <h4>Pending Orders: </h4>
+            <div data-store-order="checklist"></div>
+          </div>
+        </div>
+</div>
+</main>
+</form>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <script src="scripts/validation.js" charset="utf-8"></script>
+  <script src="scripts/checklist.js" charset="utf-8"></script>
+  <script src="scripts/formhandler.js" charset="utf-8"></script>
+  <script src="scripts/remotedatastore.js" charset="utf-8"></script>
+  <script src="scripts/datastore.js" charset="utf-8"></script>
+  <script src="scripts/truck.js" charset="utf-8"></script>
+  <script src="scripts/main.js" charset="utf-8"></script>
+
+</body>
+</html>
