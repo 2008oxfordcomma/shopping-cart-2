@@ -6,6 +6,8 @@ form :focus:required:invalid {
 }
 
 .tab {
+  color: #c1c0e0;
+  text-shadow: 0 0 10px #c1c0e0;
   margin-top: 10px;
 }
 
@@ -14,14 +16,15 @@ form :focus:required:invalid {
 }
 
 .thumbnail-title {
-  color: #111;
+  color: #1874D2;
   font-family: "Arimo", sans-serif;
   font-size: 20px;
   margin-bottom: 2vw;
 }
 
 .page-title {
-  color: #111;
+  color: #c1c0e0;
+  text-shadow: 0 0 10px #c1c0e0;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   margin-bottom: 2vw;
@@ -31,6 +34,7 @@ form :focus:required:invalid {
 html,
 body {
   height: 100%;
+  background-color: #272b37;
 }
 .radio {
   height: 100px;
@@ -44,12 +48,19 @@ body {
 }
 
 .form-check-label {
+  color: #FECC98;
   margin-left: 0.5vw;
+
 }
 
 body {
   display: flex;
   flex-direction: column;
+}
+
+h1 {
+  color: #c1c0e0;
+  text-shadow: 0 0 10px #c1c0e0;
 }
 
 .topnav {
@@ -61,7 +72,6 @@ body {
 
 .topnav a {
   float: left;
-  color: #000000;
   text-align: center;
   padding: 20px 35px;
   text-decoration: none;
@@ -125,7 +135,7 @@ div.desc {
 }
 
 canvas {
-  background: #eee;
+  background: white;
   display: block;
   margin: 0 auto;
   border-top: black;
