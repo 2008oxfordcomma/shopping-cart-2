@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,400;1,600&display=swap"); /*arimo*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"); /*roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); /*Monoton*/
 
 form :focus:required:invalid {
   border-color: #a94442;
@@ -8,7 +9,12 @@ form :focus:required:invalid {
 .tab {
   color: #c1c0e0;
   text-shadow: 0 0 10px #c1c0e0;
+  font-family: 'Monoton', cursive;
   margin-top: 10px;
+}
+
+.left {
+  float: left;
 }
 
 .right {
@@ -17,18 +23,20 @@ form :focus:required:invalid {
 
 .thumbnail-title {
   color: #1874D2;
+  text-shadow: 0 0 5px #1874D2;
   font-family: "Arimo", sans-serif;
   font-size: 20px;
   margin-bottom: 2vw;
+  margin-top: 10px;
 }
 
 .page-title {
+  font-family: 'Monoton', cursive;
   color: #c1c0e0;
   text-shadow: 0 0 10px #c1c0e0;
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  margin-bottom: 2vw;
   margin-left: 2vw;
+  margin-top: 10px;
+  font-size: 30px;
 }
 
 html,
