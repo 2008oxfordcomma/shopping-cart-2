@@ -4,6 +4,7 @@
     const FORM_SELECTOR = '[data-store-order="form"]';
     const CHECKLIST_SELECTOR = '[data-store-order="checklist"]';
     const SERVER_URL = 'http://saturn.rochesterschools.org:8080/json';
+    // to view server contents go here --> https://saturn.rochesterschools.org/python/JS-remote-datastore/data.json
 
     let App = window.App;
     let Truck = App.Truck;
