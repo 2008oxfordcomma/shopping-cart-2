@@ -1,3 +1,16 @@
+function onClick() {
+    let clStyles = document.querySelector("#checklist");
+
+    if (clStyles.style.display == "block") {
+        clStyles.style.display = "none";
+        console.log("Style is now none");
+    } else {
+        clStyles.style.display = "block";
+        console.log("Style is now block");
+    }
+
+}
+
 (function (window) {
     'use strict';
 
