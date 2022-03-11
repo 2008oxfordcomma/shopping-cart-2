@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,400;1,600&display=swap"); /*arimo*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"); /*roboto*/
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); /*Monoton*/
 
@@ -21,10 +20,14 @@ form :focus:required:invalid {
   float: right;
 }
 
+#checklist{
+  display: none;
+}
+
 .thumbnail-title {
   color: #1874D2;
   text-shadow: 0 0 5px #1874D2;
-  font-family: "Arimo", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   margin-bottom: 2vw;
   margin-top: 10px;
