@@ -1,4 +1,4 @@
-Dre Harm
+Dre Harm & Michael Huang
 
 Goal: Create Shopping Cart
 
