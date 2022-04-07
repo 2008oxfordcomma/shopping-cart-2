@@ -1,11 +1,20 @@
 function onClick() {
     let clStyles = document.querySelector("#checklist");
+    let galleryStyles = document.querySelector(".gallery");
+    let submitStyles = document.querySelector("#submitHeader");
+    let emailBoxStyles = document.querySelector("#emailBox");
 
     if (clStyles.style.display == "block") {
         clStyles.style.display = "none";
+        galleryStyles.style.display = "block";
+        submitStyles.style.display = "block";
+        emailBoxStyles.style.display = "block";
         console.log("Style is now none");
     } else {
         clStyles.style.display = "block";
+        galleryStyles.style.display = "none";
+        submitStyles.style.display = "none";
+        emailBoxStyles.style.display = "none";
         console.log("Style is now block");
     }
 
@@ -45,8 +54,6 @@ function onClick() {
                 console.log('----- ${k}: ${v}');
             });
         });
-        
-        
     });
     
     let formHandler = new FormHandler(FORM_SELECTOR);
@@ -66,7 +73,4 @@ function onClick() {
 
     window.myTruck = myTruck;
     
-
-
 })(window);
-
