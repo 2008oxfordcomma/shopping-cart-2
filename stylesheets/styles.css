@@ -1,5 +1,168 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"); /*roboto*/
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); /*Monoton*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"); /*roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); /*Monoton*/
+
+form :focus:required:invalid {
+  border-color: #a94442;
+}
+
+.tab {
+  color: #c1c0e0;
+  text-shadow: 0 0 10px #c1c0e0;
+  font-family: 'Monoton', cursive;
+  margin-top: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#checklist {
+  display: none;
+}
+
+#emailBox {
+  display: "block";
+}
+
+#submitHeader {
+  display: "block";
+}
+
+.thumbnail-title {
+  color: #1874D2;
+  text-shadow: 0 0 5px #1874D2;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 2vw;
+  margin-top: 10px;
+}
+
+.page-title {
+  font-family: 'Monoton', cursive;
+  color: #c1c0e0;
+  text-shadow: 0 0 10px #c1c0e0;
+  margin-left: 2vw;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #272b37;
+}
+.radio {
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.check {
+  margin-left: 1.5vw;
+  margin-bottom: 1vw;
+}
+
+.form-check-label {
+  color: #FECC98;
+  margin-left: 0.5vw;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #c1c0e0;
+  text-shadow: 0 0 10px #c1c0e0;
+}
+
+.topnav {
+  flex: 0 1 auto;
+  overflow: hidden;
+  border-bottom: 2px solid #979797;
+  margin-bottom: 2vw;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 20px 35px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.gallery {
+  margin-bottom: 3vw;
+  margin: 2vw;
+  border: none !important;
+  display: block;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  border-top: black;
+  border: 5px;
+}
 
 form :focus:required:invalid {
   border-color: #a94442;

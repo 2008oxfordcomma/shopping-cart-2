@@ -54,8 +54,6 @@ function onClick() {
                 console.log('----- ${k}: ${v}');
             });
         });
-        
-        
     });
     
     let formHandler = new FormHandler(FORM_SELECTOR);
@@ -75,7 +73,4 @@ function onClick() {
 
     window.myTruck = myTruck;
     
-
-
 })(window);
-
