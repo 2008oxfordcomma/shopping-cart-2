@@ -6,13 +6,13 @@ function onClick() {
 
     if (clStyles.style.display == "block") {
         clStyles.style.display = "none";
-        galleryStyles.style.display = "block";
+        galleryStyles.classList.remove("hiddenGallery");
         submitStyles.style.display = "block";
         emailBoxStyles.style.display = "block";
         console.log("Style is now none");
     } else {
         clStyles.style.display = "block";
-        galleryStyles.style.display = "none";
+        galleryStyles.classList.add("hiddenGallery");
         submitStyles.style.display = "none";
         emailBoxStyles.style.display = "none";
         console.log("Style is now block");

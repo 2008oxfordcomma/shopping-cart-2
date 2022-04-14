@@ -261,6 +261,20 @@ h1 {
   margin: 2vw;
   border: none !important;
   display: block;
+  transform: ease-in-out;
+  transition: opacity 1s;
+
+  visibility: visible;
+  opacity: 1;
+}
+
+.gallery.hiddenGallery {
+  transform: ease-in-out;
+  transition: visibility 1s, opacity 1s;
+  
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
 }
 
 div.gallery {
