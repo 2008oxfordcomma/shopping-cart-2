@@ -95,15 +95,6 @@ h1 {
   margin-bottom: 2vw;
 }
 
-.topnav a {
-  float: left;
-  text-align: center;
-  padding: 20px 35px;
-  text-decoration: none;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-}
-
 .gallery {
   margin-bottom: 3vw;
   margin: 2vw;
@@ -254,13 +245,13 @@ h1 {
   overflow: hidden;
   border-bottom: 2px solid #979797;
   margin-bottom: 2vw;
+  color: #c1c0e0;
 }
 
 .topnav a {
   float: left;
   text-align: center;
   padding: 20px 35px;
-  text-decoration: none;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
@@ -327,4 +318,8 @@ canvas {
   margin: 0 auto;
   border-top: black;
   border: 5px;
+}
+
+.container {
+  margin-bottom: 50px;
 }
