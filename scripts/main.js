@@ -3,18 +3,21 @@ function onClick() {
     let galleryStyles = document.querySelector(".gallery");
     let submitStyles = document.querySelector("#submitHeader");
     let emailBoxStyles = document.querySelector("#emailBox");
+    let tabLabel = document.querySelector(".tab");
 
     if (clStyles.style.display == "block") {
         clStyles.style.display = "none";
         galleryStyles.classList.remove("hiddenGallery");
         submitStyles.style.display = "block";
         emailBoxStyles.style.display = "block";
+        tabLabel.textContent = "Manager Site";
         console.log("Style is now none");
     } else {
         clStyles.style.display = "block";
         galleryStyles.classList.add("hiddenGallery");
         submitStyles.style.display = "none";
         emailBoxStyles.style.display = "none";
+        tabLabel.textContent = "Return to Gallery";
         console.log("Style is now block");
     }
 
