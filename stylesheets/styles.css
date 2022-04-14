@@ -86,6 +86,10 @@ h1 {
 
 .topnav {
   flex: 0 1 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   overflow: hidden;
   border-bottom: 2px solid #979797;
   margin-bottom: 2vw;
